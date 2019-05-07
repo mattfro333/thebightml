@@ -1,11 +1,12 @@
 body {
-  background-image: url(../img/branches.jpg);
+  background-image: url(../img/branches.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
+
+
 
  img {
    display: block;
@@ -13,6 +14,7 @@ body {
    margin-right: auto;
    width:350px;
    height:350px;
+   opacity: .9;
  }
 
 .center {
