@@ -6,6 +6,9 @@ body {
   background-attachment: fixed;
 }
 
+  h1, h4, li {
+     font-weight: bold;
+  }
 
 
  img {
