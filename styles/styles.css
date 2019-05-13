@@ -6,10 +6,13 @@ body {
   background-attachment: fixed;
 }
 
-  h1, h4, li {
+  h1, h3, li {
      font-weight: bold;
   }
 
+ul {
+  font-size: 1.5em;
+}
 
  img {
    display: block;
@@ -24,11 +27,15 @@ body {
   display: flex;
   justify-content: center;
   font-family:sans-serif;
+  font-size: 3.5em;
+  font-style: oblique;
+  color:rgb(222, 0, 0);
+  text-decoration: underline;
 }
 
 .indent {
   text-indent: 3em;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .rainbow {
@@ -66,8 +73,4 @@ body {
 	60%{color: green;}
 	80%{color: blue;}
 	100%{color: orange;}
-}
-
-.deliciouso {
-  text-decoration: line-through;
 }
